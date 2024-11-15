@@ -10,8 +10,8 @@ function convert(){
 
     if(toCelsius.checked){
         let temp= Number(textBox.value);
-        newtemp = temp * (9/5) ;
-        result.textContent= newtemp.toFixed(1);
+        newTemp = temp * (9/5) ;
+        result.textContent= newTemp.toFixed(1);
      
     }
     else if(toFahrenheit.checked){
